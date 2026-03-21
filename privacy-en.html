@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ScreenBlocker — Privacy Policy</title>
+  <meta name="description" content="ScreenBlocker Privacy Policy — Health, Camera, Screen Time, on-device data." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container legal">
+    <div class="topbar">
+      <div class="brand">
+        <div class="appicon-fallback" aria-hidden="true"></div>
+        <span>ScreenBlocker</span>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="pill" href="privacy-ru.html">RU</a>
+        <a class="pill" href="./">← Site</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container legal">
+    <section class="section">
+      <div class="glass-card">
+        <h1>Privacy Policy</h1>
+        <div class="muted">Last updated: March 2026</div>
+
+        <p style="color:var(--text); margin-top:14px;">
+          This Privacy Policy describes how <strong>ScreenBlocker</strong> (“the app”) handles information when you use the iOS application.
+          The app is designed so that <strong>your activity and settings are processed primarily on your device</strong>. We do not require you to create an account in the app.
+        </p>
+
+        <ol>
+          <li>
+            <strong>No backend servers operated by us for your core data</strong><br/>
+            ScreenBlocker does not send your habit logs, step counts, exercise rep counts, earned/spent time balances, or your list of selected apps to servers that we operate for the purpose of running those features. That information is stored locally using Apple’s on-device storage mechanisms (including App Group containers shared only between the main app and its app extensions on the same device), as needed for the features below.
+          </li>
+          <li>
+            <strong>Apple frameworks you authorize</strong><br/>
+            The app relies on system APIs that have their own privacy disclosures and permission prompts, including:
+            <ul>
+              <li><strong>HealthKit</strong> (optional): to read step-count data you allow, so the app can grant time based on walking activity. Health data is accessed according to your Health permissions and stays within Apple’s Health ecosystem on your device unless you separately use other Apple or third-party features.</li>
+              <li><strong>Camera</strong> (optional): to analyze your body pose on-device for squat and push-up counting using Apple’s Vision framework. Video is processed for this purpose on the device; we do not operate a cloud service that receives your camera feed for this feature.</li>
+              <li><strong>Family Controls / Screen Time</strong> (optional): to let you choose which apps, categories, or web domains are subject to time limits and shields. Authorization is managed by iOS. Enforcement uses Apple’s Managed Settings and Device Activity APIs on the device.</li>
+              <li><strong>UserNotifications</strong>: for local notifications (for example, balance updates), if you grant notification permission.</li>
+              <li><strong>ActivityKit (Live Activities)</strong> (optional): to show an on-screen focus timer during a focus session, where supported by the system. Content is supplied to Apple’s Live Activity system on the device.</li>
+            </ul>
+            Apple’s handling of data related to Screen Time, device activity, and system services is governed by Apple’s policies and your device settings, in addition to this policy.
+          </li>
+          <li>
+            <strong>What is stored on your device</strong><br/>
+            Depending on how you use the app, locally stored data may include: conversion settings (e.g. steps or reps per minute of reward), running balance of earned and spent time, an activity ledger for statistics, exercise totals, monitoring pause state, optional daily-reset preferences, and data required to coordinate Device Activity monitoring and shields between the app and its extensions. A snapshot of an active focus session may be stored so the session can be restored after the app process is terminated, consistent with the focus timer shown in Live Activities where enabled.
+          </li>
+          <li>
+            <strong>App extensions</strong><br/>
+            ScreenBlocker may include extensions (for example, Device Activity monitor and shield-related extensions) that read and write the same App Group data on your device to apply time limits and shields you configured. These extensions do not send that data to servers we operate for providing the in-app features described here.
+          </li>
+          <li>
+            <strong>Analytics, advertising, and sale of data</strong><br/>
+            The app, as distributed by the developer for this policy version, <strong>does not integrate third-party advertising SDKs</strong> and <strong>does not sell your personal information</strong>. If analytics or crash reporting tools are added in a future version, this policy will be updated and, where required, additional disclosures will be provided in App Store Connect and in the app.
+          </li>
+          <li>
+            <strong>Children</strong><br/>
+            ScreenBlocker is not intended for children to provide personal information to us. Screen Time and Family Controls features are designed to be managed by a parent or guardian on a device they control. If you believe information was collected in error, contact us using the email below.
+          </li>
+          <li>
+            <strong>Your choices and deletion</strong><br/>
+            You can revoke or adjust permissions in iOS Settings (Health, Camera, Notifications, Screen Time). You can delete app data by removing the app from your device (subject to how iOS retains App Group or extension data — refer to Apple documentation). Clearing selections inside the app where available also limits further use of those selections.
+          </li>
+          <li>
+            <strong>International users</strong><br/>
+            Because core processing occurs on your device, your information is not transferred internationally by us for the on-device features described above. If you contact us by email, your message is handled according to standard email practices.
+          </li>
+          <li>
+            <strong>Changes</strong><br/>
+            We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the app after changes means you accept the updated policy, unless applicable law requires otherwise.
+          </li>
+          <li>
+            <strong>Contact</strong><br/>
+            Questions about this policy: <a href="mailto:screenblocker@yandex.ru">screenblocker@yandex.ru</a>
+          </li>
+        </ol>
+
+        <p class="muted" style="margin-top:18px;">
+          For App Store purposes, you may also rely on Apple’s standard end-user license agreement where applicable:
+          <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a>.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© ScreenBlocker</p>
+    </footer>
+  </main>
+</body>
+</html>
