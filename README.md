@@ -7,7 +7,7 @@
 | Файл | Назначение |
 |------|------------|
 | `index.html` | Главная: фичи, плейсхолдеры скриншотов, ссылки на политики |
-| `privacy-en.html` / `privacy-ru.html` | Политика (EN / RU) |
+| `privacy-en.html` | Privacy Policy (English, достаточно для типичного App Store review) |
 | `styles.css` | Общие стили |
 | `.nojekyll` | Отключает Jekyll на GitHub Pages (важно для файлов с `_` в имени и предсказуемой раздачи статики) |
 | `assets/` | Иконка и скриншоты (см. `assets/README.md`) |
